@@ -234,6 +234,7 @@ concept guides. See 'git help <command>' or 'git help <concept>'
 to read about a specific subcommand or concept.
 ````
 Para más información acceder al link: 
+
 [![Nombre del video](https://img.youtube.com/vi/9uGS1ak_FGg/0.jpg)](https://youtu.be/9uGS1ak_FGg)
 
 ### Comandos básicos de Git
