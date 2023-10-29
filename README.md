@@ -89,3 +89,22 @@ git --version
 ````
 git config --global user.name "<USER_NAME>"
 ````
+
+5. Ahora, use este comando para crear una variable de configuración user.email; para ello, reemplace <USER_EMAIL> por su dirección de correo electrónico:
+
+````
+git config --global user.email "<USER_EMAIL>"
+````
+
+6. Ejecute el siguiente comando para comprobar que los cambios han funcionado:
+
+````
+git config --list
+````
+
+7. Confirme que la salida incluye dos líneas similares al siguiente ejemplo. El nombre y la dirección de correo electrónico serán distintos a los que se muestran en el ejemplo.
+
+````
+user.name=User Name
+user.email=user-name@contoso.com
+````
