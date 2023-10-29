@@ -48,7 +48,7 @@ Las instancias anteriores de los VCS, como CVS, Subversion (SVN) y Perforce, usa
 
   - **Comandos, subcomandos y opciones:** las *operaciones de Git se realizan mediante comandos* como git push y git pull. git es el comando, mientras que push o pull es el subcomando. El subcomando especifica la operación que quiere que Git realice. Los comandos suelen ir acompañados de opciones, que usan guiones (-) o guiones dobles (--). Por ejemplo, git reset --hard.
 
-### Git y GitHub
+### <img src="https://github.com/shimadasoftware/Introduction-to-version-control-with-Git/assets/73977456/801ea14c-dd83-46bb-ab5b-d229a151bc5c" alt="Italian Trulli" style="width:15px;height:15px;"> Git y <img src="https://github.com/shimadasoftware/Introduction-to-version-control-with-Git/assets/73977456/c5d29a60-b607-4aa3-9fec-cc019d45cb19" alt="Italian Trulli" style="width:15px;height:15px;"> GitHub
 
 Como se ha mencionado anteriormente, *Git es un sistema de control de versiones distribuido (DVCS)* que varios desarrolladores y otros colaboradores pueden usar para trabajar en un proyecto. Proporciona una manera de trabajar con una o varias ramas locales y luego insertarlas en un repositorio remoto.
 
@@ -64,7 +64,7 @@ Entre las características clave que ofrece GitHub se incluyen las siguientes:
 - Bifurcaciones
 - Proyectos
 
-## Instalación de Git en Linux distribución Fedora
+## <img src="https://github.com/shimadasoftware/Introduction-to-version-control-with-Git/assets/73977456/6e035093-a820-4041-9993-d1ad9c1fc69a" alt="Italian Trulli" style="width:20px;height:20px;"> Instalación de Git en Linux distribución Fedora
 
 1. Previamente a realizar la de Git instalación en Fedora, se recomienda actualizar el sistema para asegurarse que todos los paquetes estén actualizados. Para ello, se digita el siguiente comando en la terminal:
 
@@ -109,7 +109,7 @@ user.name=User Name
 user.email=user-name@contoso.com
 ````
 
-## Ejercicio: Prueba de Git
+## <img src="https://github.com/shimadasoftware/Introduction-to-version-control-with-Git/assets/73977456/411688f3-e06a-4a03-842f-c5161fc6bb12" alt="Italian Trulli" style="width:25px;height:25px;"> Ejercicio: Prueba de Git
 
 ### Configuración del repositorio de Git
 
@@ -233,3 +233,41 @@ collaborate (see also: git help workflows)
 concept guides. See 'git help <command>' or 'git help <concept>'
 to read about a specific subcommand or concept.
 ````
+Para más información acceder al link: 
+[![Nombre del video](https://img.youtube.com/vi/9uGS1ak_FGg/0.jpg)](https://youtu.be/9uGS1ak_FGg)
+
+### Comandos básicos de Git
+
+Git recuerda los cambios efectuados en los archivos como si tomara instantáneas del sistema de archives.
+
+- **git status:** muestra el estado del árbol de trabajo y del área de almacenamiento provisional. Permite ver los cambios que Git está siguiendo en ese momento para poder decidir si quiere pedir a Git que tome otra instantánea.
+
+- **git add:** es el comando que se usa para indicar a Git que empiece a realizar un seguimiento de los cambios en determinados archivos. El término técnico es almacenamiento provisional de estos cambios. Va a usar git add para almacenar provisionalmente los cambios a fin de prepararse para una confirmación. Todos los cambios en los archivos que se han agregado pero que aún no se han confirmado se almacenan en el área de almacenamiento provisional.
+  
+- **git commit:** Después de haber almacenado provisionalmente algunos cambios para su confirmación, puede guardar el trabajo en una instantánea si invoca al comando git commit. Confirmar (o "commit") es un verbo y un sustantivo. Básicamente tiene el mismo significado que cuando se confirma en un plan o se confirma un cambio en una base de datos. Como verbo, la confirmación de cambios significa que se coloca una copia (del archivo, el directorio u otra "cosa") en el repositorio como una nueva versión. Como sustantivo, una confirmación es el pequeño fragmento de datos que asigna una identidad única a los cambios que se confirman. Los datos que se guardan en una confirmación incluyen el nombre del autor y la dirección de correo electrónico, la fecha, los comentarios sobre lo que se ha hecho (y por qué), una firma digital opcional y el identificador único de la confirmación anterior.
+
+- **git log:** El comando git log permite ver información sobre las confirmaciones anteriores. Cada confirmación tiene un mensaje adjunto (un mensaje de confirmación), y el comando git log permite imprimir información sobre las confirmaciones más recientes, como su marca de tiempo, el autor y un mensaje de confirmación. Este comando ayuda a realizar un seguimiento de lo que ha estado haciendo y de los cambios que se han guardado.
+
+- **git help:** Use este comando para obtener información fácilmente sobre todos los comandos que conoce hasta ahora y más. Recuerde que cada comando incluye también su propia página de ayuda. Para encontrar estas páginas de ayuda, escriba git <command> --help. Por ejemplo, git commit --help muestra una página que proporciona más información sobre el comando git commit y cómo usarlo.
+
+### Prueba de conocimientos
+
+1. ¿Cuál de los siguientes escenarios es un caso de uso habitual de un sistema de control de versiones?
+  - ❌ Eliminación de versiones anteriores de un proyecto o archivo para saber que se está trabajando solo con el archivo o los datos más recientes. 
+  - ✅ Realización de cambios experimentales en el proyecto en una rama aislada.
+  - ❌ Recopilación de requisitos de características de un proyecto grande y su comunicación a las partes interesadas.
+
+2. ¿Cuál es otro nombre para un sistema de control de versiones? 
+  - ❌ Software de administración de versiones (VMS).
+  - ❌ Sistema de administración de control de software (SCM).
+  - ✅ Sistema de administración de configuración de software (SCM).
+  
+3. ¿Cuál es la diferencia entre Git y GitHub?
+   - ✅ Git permite trabajar con una o más ramas locales y enviar los cambios a un repositorio remoto. GitHub actúa como el repositorio remoto al que se accede por medio de un sitio web o herramientas de línea de comandos.
+   - ❌ Git es un sistema de control de versiones distribuido (DVCS) que se ejecuta en la nube. GitHub es una capa de interfaz que proporciona acceso a la tecnología de Git.
+   - ❌ Git es un sistema de control de versiones distribuido (DVCS) que se ejecuta en la nube. GitHub es una capa de interfaz que proporciona acceso a la tecnología de Git.
+     
+4. ¿Qué comando de Git ofrece información sobre cómo usar Git?
+   - ❌ git init
+   - ❌ git status
+   - ✅ git help
