@@ -108,3 +108,71 @@ git config --list
 user.name=User Name
 user.email=user-name@contoso.com
 ````
+
+## Ejercicio: Prueba de Git
+
+### Configuración del repositorio de Git
+
+Git funciona buscando cambios en los archivos dentro de una determinada carpeta. Vamos a crear una carpeta que actúe como árbol de trabajo (directorio del proyecto) y a permitir que Git sepa sobre ella para que pueda comenzar a seguir los cambios. Se indica a Git que empiece a realizar el seguimiento de los cambios mediante la inicialización de un repositorio de Git en esa carpeta. Empiece por crear una carpeta vacía para el proyecto y luego inicialice un repositorio de Git dentro de ella.
+
+1. Cree una carpeta con el nombre Cats. Esta carpeta va a ser el directorio del proyecto, también denominado árbol de trabajo. El directorio del proyecto es donde se almacenan todos los archivos relacionados con el proyecto. En este ejercicio, es donde se almacenan el sitio web y los archivos que crean el sitio web y su contenido.
+
+````
+mkdir Cats
+````
+
+2. Vaya al directorio del proyecto mediante el comando cd:
+
+````
+cd Cats
+````
+
+3. Ahora, inicialice el nuevo repositorio y establezca el nombre de la rama predeterminada en main:
+
+Si está ejecutando la versión 2.28.0 o una posterior de Git, use el comando siguiente:
+````
+git init --initial-branch=main
+````
+
+O bien, use el siguiente comando:
+````
+git init -b main
+````
+En versiones anteriores de Git, use estos comandos:
+````
+git init
+git checkout -b main
+````
+Después de ejecutar el comando de inicialización, debería ver una salida similar a la de este ejemplo:
+
+````
+Initialized empty Git repository in /home/<user>/Cats/.git/
+
+Switched to a new branch 'main'
+````
+
+4. Ahora, use un comando git status para mostrar el estado del árbol de trabajo:
+  
+````
+git status
+````
+
+Git responde con esta salida, que indica que master es la rama actual. (De hecho, también es la única rama). Por ahora todo está claro.
+
+````
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+````
+
+5. Use un comando ls para mostrar el estado del árbol de trabajo:
+
+````
+ls -a
+````
+
+Confirme que el directorio contiene un subdirectorio denominado .git. (El uso de la opción -a con ls es importante, ya que Linux normalmente oculta los nombres de archivos y directorios que comienzan con un punto). Esta carpeta es el repositorio de Git: el directorio en el que Git almacena los metadatos y el historial del árbol de trabajo.
+
+Normalmente no se hace nada directamente con el directorio .git. Git actualiza los metadatos a medida que el estado del árbol de trabajo cambia para mantener un seguimiento de lo que ha cambiado en sus archivos. Este directorio es práctico para usted, pero es increíblemente importante para Git.
