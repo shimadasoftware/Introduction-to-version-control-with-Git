@@ -64,4 +64,28 @@ Entre las características clave que ofrece GitHub se incluyen las siguientes:
 - Bifurcaciones
 - Proyectos
 
-## Instalación en Linux distribución Fedora
+## Instalación de Git en Linux distribución Fedora
+
+1. Previamente a realizar la de Git instalación en Fedora, se recomienda actualizar el sistema para asegurarse que todos los paquetes estén actualizados. Para ello, se digita el siguiente comando en la terminal:
+
+````
+sudo dnf update -y
+````
+
+2. Fedora, de forma predeterminada, mantiene una versión actualizada de Git. Esto hace que el proceso de instalación sea sencillo. Para instalar Git usando el administrador de paquetes DNF, ejecute el siguiente comando:
+
+````
+sudo dnf install git
+````
+
+3. Para verificar la instalación exitosa y verificar la versión de Git que ha instalado, use:
+
+````
+git --version
+````
+
+4. Para configurar Git, debe definir algunas variables globales: user.name y user.email. Ambas son necesarias para realizar confirmaciones. El primer paso es proporcionar su nombre, que se configurará globalmente. Reemplace <USER_NAME> por el nombre de usuario que quiere usar.
+
+````
+git config --global user.name "<USER_NAME>"
+````
