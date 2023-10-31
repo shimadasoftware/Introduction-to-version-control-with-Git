@@ -5,7 +5,7 @@ Este repositorio contiene el curso Introducción al control de versiones con Git
 <ul dir="auto">
   <li><a href="https://github.com/shimadasoftware/Learning-Git-and-GitHub/blob/main/1.%20Introducci%C3%B3n%20a%20Git.md">Modulo 1: Introducción a Git</a></li>
   <li><a href="https://github.com/shimadasoftware/Learning-Git-and-GitHub/blob/main/2.%20Procedimientos%20para%20crear%20y%20modificar%20un%20proyecto%20de%20Git.md">Modulo 2: Procedimientos para crear y modificar un proyecto de Git</a></li>
-  <li><a href="https://github.com/shimadasoftware/Learning-Git-and-GitHub/blob/main/1.%20Introducci%C3%B3n%20a%20Git.md">Modulo 3: Colaboración con Git</a></li>
+  <li><a href="https://github.com/shimadasoftware/Learning-Git-and-GitHub/blob/main/3.%20Colaboraci%C3%B3n%20con%20Git.md">Modulo 3: Colaboración con Git</a></li>
   <li><a href="https://github.com/shimadasoftware/Learning-Git-and-GitHub/blob/main/1.%20Introducci%C3%B3n%20a%20Git.md">Modulo 4: Edición de código mediante creación de ramas y combinación en Git</a></li>
 </ul>
 
