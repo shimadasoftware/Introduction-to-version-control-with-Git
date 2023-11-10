@@ -19,11 +19,11 @@ A continuación, se enumeran los módulos de este curso:
   <li><a href="https://github.com/shimadasoftware/Learning-Git-and-GitHub/blob/main/2.%20Procedimientos%20para%20crear%20y%20modificar%20un%20proyecto%20de%20Git.md">Módulo 2: Procedimientos para crear y modificar un proyecto de Git</a></li>
   <li><a href="https://github.com/shimadasoftware/Learning-Git-and-GitHub/blob/main/3.%20Colaboraci%C3%B3n%20con%20Git.md">Módulo 3: Colaboración con Git</a></li>
   <li><a href="https://github.com/shimadasoftware/Learning-Git-and-GitHub/blob/main/4.%20Edici%C3%B3n%20de%20c%C3%B3digo%20mediante%20creaci%C3%B3n%20de%20ramas%20y%20combinaci%C3%B3n%20en%20Git.md">Módulo 4: Edición de código mediante creación de ramas y combinación en Git</a></li>
-  <li><a href="">Módulo 5: Introducción a GitHub</a></li>
-  <li><a href="">Módulo 6: Código con GitHub Codespaces</a></li>
-  <li><a href="">Módulo 7: Introducción a GitHub Copilot</a></li>
-  <li><a href="">Módulo 8: Uso de GitHub Copilot con JavaScript</a></li>
-  <li><a href="">Módulo 9: Uso de GitHub Copilot con Python</a></li>
-  <li><a href="">Módulo 10: Proyecto de desafío: Crear una aplicación de consola de minijuegos con GitHub Copilot</a></li>
-  <li><a href="">Módulo 11: Proyecto de desafío: agregar funcionalidades de generación y análisis de imágenes a la aplicación</a></li>
+  <li><a href="https://github.com/shimadasoftware/Learning-Git-and-GitHub/blob/main/5.%20Introducci%C3%B3n%20a%20GitHub.md">Módulo 5: Introducción a GitHub</a></li>
+  <li><a href="https://github.com/shimadasoftware/Learning-Git-and-GitHub/blob/main/6.%20C%C3%B3digo%20con%20GitHub%20Codespaces.md">Módulo 6: Código con GitHub Codespaces</a></li>
+  <li><a href="https://github.com/shimadasoftware/Learning-Git-and-GitHub/blob/main/7.%20Introducci%C3%B3n%20a%20GitHub%20Copilot.md">Módulo 7: Introducción a GitHub Copilot</a></li>
+  <li><a href="https://github.com/shimadasoftware/Learning-Git-and-GitHub/blob/main/8.%20Uso%20de%20GitHub%20Copilot%20con%20JavaScript.md">Módulo 8: Uso de GitHub Copilot con JavaScript</a></li>
+  <li><a href="https://github.com/shimadasoftware/Learning-Git-and-GitHub/blob/main/9.%20Uso%20de%20GitHub%20Copilot%20con%20Python.md">Módulo 9: Uso de GitHub Copilot con Python</a></li>
+  <li><a href="https://github.com/shimadasoftware/Learning-Git-and-GitHub/blob/main/10.%20Proyecto%20de%20desaf%C3%ADo%3A%20Crear%20una%20aplicaci%C3%B3n%20de%20consola%20de%20minijuegos%20con%20GitHub%20Copilot.md">Módulo 10: Proyecto de desafío - crear una aplicación de consola de minijuegos con GitHub Copilot</a></li>
+  <li><a href="https://github.com/shimadasoftware/Learning-Git-and-GitHub/blob/main/11.%20Proyecto%20de%20desaf%C3%ADo%3A%20agregar%20funcionalidades%20de%20generaci%C3%B3n%20y%20an%C3%A1lisis%20de%20im%C3%A1genes%20a%20la%20aplicaci%C3%B3n.md">Módulo 11: Proyecto de desafío - agregar funcionalidades de generación y análisis de imágenes a la aplicación</a></li>
 </ul>
