@@ -11,6 +11,8 @@ Sobre el reto:
 
 Durante este reto, explorarás como puedes crear proyectos con diferentes herramientas como Git, GitHub Copilot y GitHub Codespaces; ya que ofrecen una experiencia increíble para principiantes en IA.
 
+Para más información acceder al link: https://techcommunity.microsoft.com/t5/educator-developer-blog/reg%C3%ADstrate-al-github-universe-cloud-skills-challenge/ba-p/3951236
+
 A continuación, se enumeran los módulos de este curso:
 <ul dir="auto">
   <li><a href="https://github.com/shimadasoftware/Learning-Git-and-GitHub/blob/main/1.%20Introducci%C3%B3n%20a%20Git.md">Modulo 1: Introducción a Git</a></li>
